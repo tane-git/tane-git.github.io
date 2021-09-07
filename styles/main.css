@@ -3,6 +3,7 @@
 h1 {
     color: blue;  
     font-family: Arial;
+    width: 100vw;
 }
 
 body {
