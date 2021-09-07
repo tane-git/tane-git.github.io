@@ -1,11 +1,44 @@
 /* At some stuff to make website responsive to different viewports */
 
 h1 {
-    color: blue;  
+    color: lightblue;  
     font-family: Arial;
     width: 100vw;
 }
 
 body {
+    /* Text */
     font-family: Arial;
+    color: grey;
+
+    /* other */
+    background-color: #121212;
+
+    /* positioning */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
+
+.posts {
+    /* Colors */
+    background-color: #181818;
+
+    border-style: outset;
+    border-color: lightblue;
+    border-width: 2px;
+
+    /* Positioning */
+    margin: 2.5vw;
+    padding: 50px;
+}
+
+footer {
+    background-color: #181818;
+
+    /* Positioning */
+    margin-top: 10px;
+    padding: 10px;
+}
+
