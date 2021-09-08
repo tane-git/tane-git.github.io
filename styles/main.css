@@ -1,43 +1,101 @@
 /* At some stuff to make website responsive to different viewports */
 
+body {
+    /* Text */
+    font-family: Arial;
+    font-size: 25px;
+    text-align: left;
+    color: black;
+
+    /* other */
+    background-color: #121212;
+
+    /* positioning */
+    min-height: 95vh;
+    
+    display: flex;
+    flex-direction: column;
+
+    /* for some reason the footer is affected when I add body padding */
+    margin: 0px;
+    padding: 0vw;
+}
+
 h1 {
     color: lightblue;  
     font-family: Arial;
     width: 100vw;
 }
 
-body {
-    /* Text */
-    font-family: Arial;
-    color: grey;
+p {
+    padding: 0px;
+    margin: 0px;
+}
 
-    /* other */
-    background-color: #121212;
+a {
+    color: black;
+
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+.main {
+    /* colors */
+    /* background-color: #181818; */
+    background-color: blue;
 
     /* positioning */
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    margin: 0px;
+    padding: 1vw;
+    padding-top: 0px;
 }
 
 .posts {
-    /* Colors */
-    background-color: #181818;
+    /* colors */
+    /* background-color: #272727; */
+    background-color: green;
 
-    border-style: outset;
-    border-color: lightblue;
-    border-width: 2px;
+    border-style: solid;
+    border-color: #272727;
+    border-width: 0px;
 
-    /* Positioning */
-    margin: 2.5vw;
-    padding: 50px;
+    /* positioning */
+    margin: 5vw;
+    padding: 1.5vw 1.5vw 1vw 1.5vw;
+}
+
+ul {
+    padding: 0px;
+    margin: 3vw;
+
+    background-color: red;
 }
 
 footer {
+    text-align: center;
+    
     background-color: #181818;
+    background-color: red;
 
-    /* Positioning */
+    /* positioning */
     margin-top: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
     padding: 10px;
 }
 
