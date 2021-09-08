@@ -18,7 +18,7 @@ body {
     background-color: white;
 
     /* positioning */
-    min-height: 95vh;
+    min-height: 100vh;
     min-width: 100vw;
     
     display: flex;
@@ -34,11 +34,54 @@ h1 {
     color: lightblue;  
     font-family: Arial;
     width: 100vw;
+    margin-top: 1.5vh;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
 }
 
 p {
     padding: 0px;
     margin: 0px;
+}
+
+.main {
+    /* colors */
+    /* background-color: #181818; */
+    background-color: blue;
+
+    /* positioning */
+    margin: 0px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 0px;
+    padding-bottom: 1.5vh;
+
+
+}
+
+.posts {
+    /* colors */
+    /* background-color: #272727; */
+    background-color: green;
+
+    border-style: solid;
+    border-color: #272727;
+    border-width: 0px;
+
+    /* positioning */
+    margin: 5vw;
+    padding: 2.5vh 2.5vw 1.5vh 2.5vw;
+}
+
+ul {
+    padding: 0px;
+    margin: 3vw;
+
+    background-color: red;
+
+    line-height: 2;
 }
 
 a {
@@ -62,38 +105,6 @@ a:active {
 
 }
 
-.main {
-    /* colors */
-    /* background-color: #181818; */
-    background-color: blue;
-
-    /* positioning */
-    margin: 0px;
-    padding: 1vw;
-    padding-top: 0px;
-}
-
-.posts {
-    /* colors */
-    /* background-color: #272727; */
-    background-color: green;
-
-    border-style: solid;
-    border-color: #272727;
-    border-width: 0px;
-
-    /* positioning */
-    margin: 5vw;
-    padding: 1.5vw 1.5vw 1vw 1.5vw;
-}
-
-ul {
-    padding: 0px;
-    margin: 3vw;
-
-    background-color: red;
-}
-
 footer {
     text-align: center;
     
@@ -104,7 +115,7 @@ footer {
     margin-top: auto;
     margin-left: 0px;
     margin-right: 0px;
-    margin-bottom: 5px;
-    padding: 10px;
+    margin-bottom: 0px;
+    padding: 2.5vh;
 }
 
