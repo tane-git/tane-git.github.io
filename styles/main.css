@@ -1,5 +1,11 @@
 /* At some stuff to make website responsive to different viewports */
 
+/* To stop white space on the right side of webpage */
+html, body {
+    width: 100%;
+    overflow-x: hidden; 
+}
+
 body {
     /* Text */
     font-family: Arial;
@@ -9,9 +15,11 @@ body {
 
     /* other */
     background-color: #121212;
+    background-color: white;
 
     /* positioning */
     min-height: 95vh;
+    min-width: 100vw;
     
     display: flex;
     flex-direction: column;
@@ -19,6 +27,7 @@ body {
     /* for some reason the footer is affected when I add body padding */
     margin: 0px;
     padding: 0vw;
+    border-width: 0px;
 }
 
 h1 {
