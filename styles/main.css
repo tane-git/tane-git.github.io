@@ -90,7 +90,7 @@ p {
 }
 
 ul {
-    padding: 0px;
+    padding: 3vw;
     margin: 3vw;
     line-height: 2;
 }
@@ -104,28 +104,23 @@ a:link {
     color: var(--light-text);
 }
 
-a:visited {
-
-}
-
 a:hover {
     text-decoration: underline;
     color:black;
-}
-
-a:active {
-
 }
 
 a:link, a:visited, a:active {
     text-decoration: none;
 }
 
+li:hover {
+    color:black;
+}
+
 footer {
     text-align: center;
     
-    background-color: red;
-    background-color: #181818;
+    background-color: var(--dark-background-2);
 
     /* positioning */
     margin-top: auto;
