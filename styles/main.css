@@ -195,12 +195,12 @@ footer {
 
 img {
     margin: 1vh;
-    width: 80vw;
-    height: auto;
+    max-width: 80vw;
+    max-height: auto;
 }
 
 #smallimage {
-    width: 40vw;
-    height: auto;
+    max-width: 40vw;
+    max-height: auto;
 }
 
