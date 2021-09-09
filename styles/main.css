@@ -37,6 +37,11 @@ body {
     margin: 0px;
     padding: 0vw;
     border-width: 0px;
+
+    /* Controlling text overflow */
+    /* word-break: break-all; */
+    /* overflow-wrap: anywhere; */
+    /* overflow: auto;  this did something? */
 }
 
 h1 {
@@ -53,8 +58,8 @@ h1 {
 h2 {
     color: var(--light-title);
     font-family: Arial;
-    width: 100vw;
-    margin-top: 1.5vh;
+    /* width: 100vw; THIS WAS CAUSING THE OVERFLOW!*/
+    margin-top: 0vh;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -73,10 +78,14 @@ p {
 
     /* positioning */
     margin: 0px;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
     padding-top: 0px;
     padding-bottom: 1.5vh;
+
+    /* border */
+    border-width: 1px;
+    border-color: black;
 }
 
 .posts {
@@ -85,8 +94,27 @@ p {
     border-width: 0px;
 
     /* positioning */
-    margin: 5vw;
-    padding: 2.5vh 2.5vw 1.5vh 2.5vw;
+    margin: 2.5vw;
+    padding-top: 1.5vh;
+    padding-right: 1.5vw;
+    padding-bottom: 1.5vh;
+    padding-left: 1.5vw;
+
+    /* border */
+    border-width: 1px;
+    border-color: black;
+}
+
+/* controlling text overflow */
+#overflow {
+    /* white-space: pre-line; */
+    /* overflow-wrap: break-word; */
+    /* overflow: auto; */
+    /* word-break: break-all; */
+    /* overflow-wrap: anywhere; */
+    /* overflow: wrap; */
+    /*controlling text overflow */
+    overflow: wrap;
 }
 
 ul {
@@ -128,5 +156,43 @@ footer {
     margin-right: 0px;
     margin-bottom: 0px;
     padding: 2.5vh;
+
+    /* border */
+    border-width: 1px;
+    border-color: black;
 }
 
+.inline {
+    display: inline;
+}
+
+.inlineblock {
+    display: inline-block;
+}
+
+.red {
+    color:red;
+    margin: 15px;
+}
+
+.green {
+    color: green;
+    margin: 15px;
+}
+
+.blue {
+    color: blue;
+    margin: 15px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.justified {
+    text-align: justify;
+}
+
+img {
+    margin: 1vh;
+}

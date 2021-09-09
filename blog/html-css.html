@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <title>My blog</title>
+
+    <!-- Setting the econding of characters -->
+    <meta charset="UTF-8">
+
+    <!-- Linking my stylesheet -->
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+
+    <!-- Some responsive web design stuff? -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  </head>
+
+  <body>
+
+    <div class="main">
+      <h1>Tane</h1> 
+        <a href="../index.html">Home</a> 
+    </div>
+
+    <div class="posts justified" id="overflow">
+        <h2>What does it mean to display inline vs inline-blocks?</h2>
+        
+        <div>
+        <p>
+            You can use &lt;span&gt;'s instead of &lt;div&gt;'s 
+            to markup up text without creating a new line.
+            <br>
+            Each of the following letters has &lt;span&gt;'s 
+            with different classes assigned to change the color:
+            <br>
+            <span class="red">r</span>
+            <span class="green">g</span>
+            <span class="blue">b</span>
+            <br>
+            The default for the span tag is to be presented 'inline'. 
+            If we tried the same thing with &lt;div&gt;'s, 
+            by default, each letter would appear on a new line. 
+            As shown below:
+            <div class="red">r</div>
+            <div class="green">g</div>
+            <div class="blue">b</div>
+            <br>
+            We can make &lt;div&gt;'s behave more &lt;span&gt;'s 
+            by setting display: inline;
+            <br>
+            <div class="inline red">r</div>
+            <div class="inline green">g</div>
+            <div class="inline blue">b</div>
+            <br>
+            or we can make &lt;span&gt;'s behave more &lt;div&gt;'s 
+            by setting display: inline-blocks;
+            <br>
+            <span class="inlineblock red">r</span>
+            <span class="green inlineblock">g</span>
+            <span class="inlineblock blue">b</span>
+            <br>
+            When an element has {display: inline-block;} set, 
+            it respects layout properties (like margins) on all sides.
+            <br>
+            When an element has just {display: inline;} set, 
+            it only respects layout properties to the left and right.
+            <br><br>
+            Have a look at the screenshots of the code behind this 
+            blog you are reading, to see if you can see how the difference
+            between &lt;span&gt;'s and &lt;div&gt;'s.
+            <br>
+        </p>
+        <br>
+            <div class="centered">
+            <img src="../images/inline_vs_inlineblock.PNG" alt="Example HTML code">
+            <br>
+            <img src="../images/css_inline_vs_inlineblock.PNG" alt="Example CSS code">
+            <br>
+            </div>
+            See how in the first example, the spans ignore the {margin: 15px;},
+            but when {display: inline-block;} is applied, this changes?
+        </div>
+    </div>
+
+
+  </body>
+
+  <footer>
+    Thank you for visiting my website!
+  </footer>
+
+</html>
