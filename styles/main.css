@@ -37,11 +37,6 @@ body {
     margin: 0px;
     padding: 0vw;
     border-width: 0px;
-
-    /* Controlling text overflow */
-    /* word-break: break-all; */
-    /* overflow-wrap: anywhere; */
-    /* overflow: auto;  this did something? */
 }
 
 h1 {
@@ -69,7 +64,10 @@ h2 {
 
 p {
     padding: 0px;
-    margin: 0px;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .main {
@@ -95,6 +93,7 @@ p {
 
     /* positioning */
     margin: 2.5vw;
+    margin-right: 4vw; /* The vertical scroll bar makes this appear smaller than the left side, a potential fix would be to do something like 2.5vw + width of scroll bar (?px) */
     padding-top: 1.5vh;
     padding-right: 1.5vw;
     padding-bottom: 1.5vh;
