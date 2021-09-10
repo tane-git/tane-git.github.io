@@ -22,6 +22,7 @@ table td,table th {
     border-bottom-style: solid
 }
 
+/* Table data */ 
 .c20 {
     border-right-style: solid;
     padding: 2pt 2pt 2pt 2pt;
@@ -35,11 +36,13 @@ table td,table th {
     border-top-style: solid;
     border-left-style: solid;
     border-bottom-width: 1pt;
-    width: 75pt;
+    width: auto;
     border-top-color: #000000;
-    border-bottom-style: solid
+    border-bottom-style: solid;
+    text-align: center;
 }
 
+/* Table class */
 .c4 {
     border-spacing: 0;
     border-collapse: collapse;
@@ -50,7 +53,17 @@ table td,table th {
     padding-top: 0pt;
     padding-bottom: 0pt;
     line-height: 1.15;
-    text-align: left
+    text-align: center;
+}
+
+/* Table class of names */
+.c2 {
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    padding-left: 3vw;
+    padding-right: 1vw;
+    line-height: 1.15;
+    text-align: left; 
 }
 
 .c16 {
@@ -59,4 +72,13 @@ table td,table th {
 
 .c10 {
     font-size: 12pt
+}
+
+table {
+    width: 100%;
+}
+
+td
+{     
+    text-align: center !important;
 }
