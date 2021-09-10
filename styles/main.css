@@ -234,4 +234,18 @@ img {
     max-height: auto;
 }
 
+.parent {
+    color: var(--light-title);
+}
 
+.parent1{
+    margin: 0px;
+    margin-left: 1vw;
+    color: var(--light-title);
+}
+
+.child{
+    margin: 0px;
+    margin-left: 3vw;
+    list-style-type: square;
+}
