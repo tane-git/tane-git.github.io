@@ -20,6 +20,7 @@ body {
     /* Text */
     font-family: Arial;
     font-size: 25px;
+    font-size: 3vw;
     text-align: left;
     color: var(--light-text);
 
