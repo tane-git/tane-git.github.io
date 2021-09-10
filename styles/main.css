@@ -23,6 +23,7 @@ body {
     font-size: 2vw;
     font-size: 2vh;
     font-size:calc(16px + 0.5vw);
+    font-size: 17pt;
     text-align: left;
     color: var(--light-text);
 
