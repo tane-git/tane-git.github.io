@@ -60,7 +60,7 @@ h2 {
     font-family: Arial;
     /* width: 100vw; THIS WAS CAUSING THE OVERFLOW!*/
     margin-top: 0vh;
-    margin-bottom: 0px;
+    margin-bottom: 1.5vh;
     margin-left: 0px;
     margin-right: 0px;
     padding: 0px;
@@ -118,9 +118,9 @@ p {
 }
 
 ul {
-    padding: 3vw;
-    margin: 3vw;
-    line-height: 2;
+    padding: 1.5vw;
+    margin: 1.5vw;
+    line-height: 1.5;
 }
 
 a {
@@ -141,8 +141,8 @@ a:link, a:visited, a:active {
     text-decoration: none;
 }
 
-li:hover {
-    color:black;
+.link:hover {
+    color: black;
 }
 
 footer {
