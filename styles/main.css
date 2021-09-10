@@ -102,6 +102,7 @@ p {
     padding-right: 1.5vw;
     padding-bottom: 1.5vh;
     padding-left: 1.5vw;
+    padding: 2vw;
 
     /* border */
     border-width: 1px;
@@ -125,6 +126,11 @@ ul {
     padding: 1.5vw;
     margin: 1.5vw;
     line-height: 1.5;
+    margin-left: 3vw;
+}
+
+.link {
+    margin-left: 3vw;
 }
 
 .parent {
@@ -246,6 +252,6 @@ img {
 
 .child{
     margin: 0px;
-    margin-left: 3vw;
+    margin-left: 5vw;
     list-style-type: square;
 }
