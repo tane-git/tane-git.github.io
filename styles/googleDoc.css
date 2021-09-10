@@ -1,0 +1,62 @@
+table td,table th {
+    padding: 0
+}
+
+/* Classes imported from google docs: c4, c16, c20, c1, c0 */
+
+.c0 {
+    border-right-style: solid;
+    padding: 2pt 2pt 2pt 2pt;
+    border-bottom-color: #000000;
+    border-top-width: 1pt;
+    border-right-width: 1pt;
+    border-left-color: #000000;
+    vertical-align: bottom;
+    border-right-color: #000000;
+    border-left-width: 1pt;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-bottom-width: 1pt;
+    width: 75pt;
+    border-top-color: #000000;
+    border-bottom-style: solid
+}
+
+.c20 {
+    border-right-style: solid;
+    padding: 2pt 2pt 2pt 2pt;
+    border-bottom-color: #000000;
+    border-top-width: 1pt;
+    border-right-width: 1pt;
+    border-left-color: #000000;
+    vertical-align: top;
+    border-right-color: #000000;
+    border-left-width: 1pt;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-bottom-width: 1pt;
+    width: 75pt;
+    border-top-color: #000000;
+    border-bottom-style: solid
+}
+
+.c4 {
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-right: auto
+}
+
+.c1 {
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    line-height: 1.15;
+    text-align: left
+}
+
+.c16 {
+    height: 15.8pt
+}
+
+.c10 {
+    font-size: 12pt
+}
