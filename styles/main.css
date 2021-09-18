@@ -259,3 +259,7 @@ img {
     margin-left: 5vw;
     list-style-type: square;
 }
+
+.invisible {
+    display: none;
+}
